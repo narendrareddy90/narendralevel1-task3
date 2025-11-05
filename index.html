@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 1 - Task 3: Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>LEVEL 1</h1>
+      <h2>TASK 3</h2>
+      <div class="icon">💻</div>
+    </div>
+
+    <div class="right">
+      <h3>TEMPERATURE CONVERTER WEBSITE</h3>
+      <p>
+        The user will input a temperature in either Fahrenheit or Celsius and press a
+        "convert" button. The converted temperature will then be displayed with the correct unit.
+      </p>
+
+      <p>Your UI should include four main elements:</p>
+      <ul>
+        <li>Input field for the user to type in their temperature.</li>
+        <li>Dropdown menu for selecting Celsius, Fahrenheit, or Kelvin.</li>
+        <li>"Convert" button to trigger the conversion.</li>
+        <li>Display area for the final converted temperature and unit.</li>
+      </ul>
+
+      <div class="converter">
+        <input type="number" id="tempInput" placeholder="Enter temperature" />
+        <select id="unitSelect">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <button onclick="convertTemp()">Convert</button>
+
+        <div id="result"></div>
+      </div>
+
+      <p>For Demo <a href="#">Click</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

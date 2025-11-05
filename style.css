@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  border: 2px solid #000;
+}
+
+.left {
+  background-color: #00d4aa;
+  width: 40%;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.left h1 {
+  color: #000;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.left h2 {
+  color: #267fff;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-top: 100px;
+}
+
+.right {
+  background-color: #0d101a;
+  width: 60%;
+  padding: 60px 40px;
+  line-height: 1.8;
+}
+
+.right h3 {
+  color: #f9c600;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin: 10px 0 20px 20px;
+}
+
+.converter {
+  margin-top: 20px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9c600;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffdb4d;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #67e8f9;
+}
+
+a {
+  color: #267fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
